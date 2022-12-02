@@ -1,12 +1,3 @@
-const navToggle = document.querySelector("#navToggle")
-const nav = document.querySelector("#nav-links")
-
-navToggle.addEventListener("click", () => {
-    nav.classList.toggle('nav-open')
-    
-    
-})
-
 const multistepForm = document.querySelector('.multistep-form');
 const forms = multistepForm.querySelectorAll('fieldset');
 const formProgressItems = multistepForm.querySelectorAll('.progressbar li');
