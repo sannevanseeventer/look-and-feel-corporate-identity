@@ -1,139 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Montserrat';
-    background-color: #fafafa;
+  font-family: 'Montserrat';
+  background-color: #fafafa;
 }
 
 :root {
-    --green: #72AEA6;
-    --darkblue: #152a42;
-    --yellow: #f4eb34;
-    --bg: #fafafa;
+  --green: #72AEA6;
+  --darkblue: #152a42;
+  --yellow: #f4eb34;
+  --bg: #fafafa;
 }
 
 /* YELLOW BANNER */
 header {
-    width: 100%;
-    height: 3rem;
-    background-color: var(--yellow);
-    position: relative;
-    padding: 1em;
+  width: 100%;
+  height: 3rem;
+  background-color: var(--yellow);
+  position: relative;
+  padding: 1em;
 }
 
 p {
-    color: #152a42;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.7rem;
-    font-weight: 300;
-    padding: 1.2em auto;
-    width: 100%;
+  color: #152a42;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding: 1.2em auto;
+  width: 100%;
 }
 
 /* NAVBAR */
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2em;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2em;
 
 }
 
 .nav-link {
   list-style: none;
-    margin: 20px 0;
-    border-bottom: 1.5px solid #e0dede;
-    width: 10rem;
+  margin: 20px 0;
+  border-bottom: 1.5px solid #e0dede;
+  width: 10rem;
 }
 
 li a {
-    color: #152a42;
-    font-size: 1.2em;
-    font-family: 'Montserrat';
-    font-weight: 400;
-    text-decoration: none;
-    line-height: 1.7em;
+  color: #152a42;
+  font-size: 1.2em;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 1.7em;
 
 }
 
 li a:hover {
-    color: var(--green);
+  color: var(--green);
 
 }
 
 .navbar {
-    background-color: #fff;
-    position: sticky;
-    width: 100%;
+  background-color: #fff;
+  position: sticky;
+  width: 100%;
 }
 
 .flex-nav {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar img {
-    width: 5em;
-    padding: 0.4em;
+  width: 5em;
+  padding: 0.4em;
 }
 
 .nav-header {
-    width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-toggle {
-    background-color: transparent;
-    border: transparent;
-    color: #152a42;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    letter-spacing: 0.1em;
+  background-color: transparent;
+  border: transparent;
+  color: #152a42;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
 }
 
 .nav-links {
-    display: none;
+  display: none;
 }
 
 .nav-open {
-    position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    padding: 3rem;
-    background: white;
-    /* transition: 2s; */
-    z-index: 99;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding: 3rem;
+  background: white;
+  /* transition: 2s; */
+  z-index: 99;
 }
 
 /* ICONS */
 .hamburger,
 .shoppingcart,
 .person {
-    background-color: transparent;
-    border: none;
-    color: #152a42;
-    position: relative;
+  background-color: transparent;
+  border: none;
+  color: #152a42;
+  position: relative;
 }
 
 .shoppingcart:hover {
-    color: var(--green);
+  color: var(--green);
 
 }
 
 .person:hover {
-    color: var(--green);
+  color: var(--green);
 }
 
 /* FORM */
@@ -143,64 +143,9 @@ li a:hover {
   overflow: hidden;
 }
 
-.progressbar {
-  overflow: hidden;
-  list-style-type: disc;
-  counter-reset: li;
-  display: flex;
-  margin-bottom: 5rem;
-}
-
-.progressbar li {
-  width: 33.33%;
-  list-style-type: none;
-  padding-top: 2.5rem;
-  font-size: 0.9rem;
-  position: relative;
-  text-align: center;
-}
-
-.progressbar li::before {
-  position: absolute;
-  counter-increment: li;
-  content: counter(li);
-  background-color: var(--gray);
-  color: white;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  line-height: 2rem;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  transition: background-color 150ms ease-in-out;
-}
-
-.progressbar li.form-done::before,
-.progressbar li.form-done::after {
-  background-color: #649b94;
-}
-
-.progressbar li::after {
-  transition: background-color 150ms ease-in-out;
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 3px;
-  background-color: var(--gray);
-  left: -50%;
-  top: 25%;
-}
-
-.progressbar li:first-child::after {
-  content: none;
-}
-
 .card {
-  width: em;
-  padding: 0.5rem 2rem 1.5rem 2rem;
-  margin: 1rem auto 0 auto;
+  padding: 0rem 2rem 1.5rem 2rem;
+  margin: 0rem auto 0 auto;
   border: none;
   border-radius: 10px;
   background-color: white;
@@ -226,9 +171,38 @@ li a:hover {
   align-items: center;
   color: #152a42;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding: 0.5rem;
   line-height: 1.4em;
+}
+
+.card h4 {
+  text-align: right;
+  justify-content: right;
+  width: 100%;
+  align-items: center;
+  color: #94989e;
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding-top: 1rem;
+
+}
+
+.card h5 {
+  color: #94989e;
+  text-align: left;
+  width: 100%;
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  line-height: 1.4em;
+}
+
+.card h5 a{
+  text-decoration: none;
+  color: #649b94;
+  font-weight: 600;
 }
 
 .card input,
@@ -252,14 +226,15 @@ li a:hover {
   border: 1px solid #649b94;
 }
 
-.card button {
-  margin-top: 0.75rem;
-  margin-left: 0.8rem;
-  width: 100px;
-}
-
 .card button:first-of-type {
   margin-left: 0.5em;
+}
+
+.info{
+  background-color: transparent;
+  border: none;
+  color: #649b94;
+  position: absolute;
 }
 
 
@@ -272,14 +247,13 @@ li a:hover {
 }
 
 .btn-primary {
-  color:#152a42;
-  background-color:#f4eb34;
+  color: #152a42;
+  background-color: #f4eb34;
   border-radius: 40px;
   font-size: 0.7em;
   font-weight: 600;
   letter-spacing: 0.1em;
-  padding: 1em 0.5em;
-  
+  padding: 1em 1.5em;
 }
 
 .btn-primary:hover,
@@ -297,36 +271,36 @@ li a:hover {
 }
 
 /* CHECKBOX */
-.container2 {
+.radiobtn {
   display: block;
   position: relative;
+  margin-top: 12px;
   padding-left: 35px;
+  margin-bottom: 12px;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
-
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+.radiobtn input {
+  display: none;
 }
 
 .checkmark {
+  margin-left: 5px;
   position: absolute;
   top: 0;
   left: 0;
-  height: 18px;
-  width: 18px;
-  background-color:#ddd;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border: 1px solid #649b94;
   border-radius: 50%;
 }
 
-.container input:checked ~ .checkmark {
-  background-color: #649b94;
+.radiobtn:hover input~.checkmark {
+  background-color: #f2f3f4;
 }
+
 
 .checkmark:after {
   content: "";
@@ -334,19 +308,18 @@ li a:hover {
   display: none;
 }
 
-.container input:checked ~ .checkmark:after {
+.radiobtn input:checked~.checkmark:after {
   display: block;
 }
 
-.container .checkmark:after {
-  top: 4.5px;
-  left: 5px;
-  width: 9px;
-  height: 9px;
+.radiobtn .checkmark:after {
+  top: 1.7px;
+  left: 1.3px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  background: white;
+  background: #649b94;
 }
-
 
 
 @keyframes slide-in {

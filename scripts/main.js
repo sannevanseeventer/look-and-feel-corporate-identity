@@ -9,7 +9,6 @@ navToggle.addEventListener("click", () => {
 
 const multistepForm = document.querySelector('.multistep-form');
 const forms = multistepForm.querySelectorAll('fieldset');
-const formProgressItems = multistepForm.querySelectorAll('.progressbar li');
 const password = multistepForm.querySelector('input[name="password"]');
 const confirmPassword = multistepForm.querySelector(
   'input[name="confirmPassword"]'
@@ -27,15 +26,11 @@ if (initialFormIndex === -1) {
 
 console.log(initialFormIndex);
 forms[initialFormIndex].classList.add('active');
-formProgressItems[initialFormIndex].classList.add('form-done');
 
 const currentFormIndex = new observable(initialFormIndex);
 currentFormIndex.onChange((val) => {
   Array.from(forms).forEach((form, i) => {
     form.classList.toggle('active', i === val);
-  });
-  formProgressItems.forEach((item, i) => {
-    item.classList.toggle('form-done', i <= val);
   });
 });
 
@@ -124,3 +119,6 @@ function observable(v) {
     }
   };
 }
+
+
+
