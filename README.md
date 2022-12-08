@@ -1,7 +1,7 @@
 <img width="156" alt="Schermafbeelding 2022-09-29 om 13 38 58" src="https://user-images.githubusercontent.com/112857444/193126088-101fcf85-c8e5-457d-a00f-e862a33249ac.png">
 
 <h2>Opdracht</h2>
-Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen.
+Ontwerp en maak voor een opdrachtgever een component of website op basis van een bestaande huisstijl.
 <br>
 <br>
 
@@ -17,7 +17,11 @@ Ouders/verzorgers zullen op deze pagina terechtkomen als ze de test willen invul
 <br>
 <br>
 
-<img width="1507" alt="Schermafbeelding 2022-11-07 om 14 39 01" src="https://user-images.githubusercontent.com/112857444/200325467-f84bebbf-629b-4840-a402-851e00d48e89.png">
+<img width="376" alt="Schermafbeelding 2022-12-08 om 13 34 58" src="https://user-images.githubusercontent.com/112857444/206447572-ecf90544-266c-4977-8680-b2592b97cca8.png">
+<img width="375" alt="Schermafbeelding 2022-12-08 om 13 34 46" src="https://user-images.githubusercontent.com/112857444/206447583-4c6d14cc-6e3c-47c9-8006-cc0d09bf4cff.png">
+<img width="374" alt="Schermafbeelding 2022-12-08 om 13 34 04" src="https://user-images.githubusercontent.com/112857444/206447586-bc33f103-8706-4aaa-861b-c57830e1ed9e.png">
+<img width="1508" alt="Schermafbeelding 2022-12-08 om 13 33 37" src="https://user-images.githubusercontent.com/112857444/206447591-eaa52b65-e7f3-4de2-bca5-593f4e0618eb.png">
+
 
 <br>
 <br>
