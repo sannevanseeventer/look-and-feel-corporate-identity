@@ -22,7 +22,8 @@ Ouders/verzorgers zullen op deze pagina terechtkomen als ze de test willen invul
 
 <br>
 
-<img width="1508" alt="Schermafbeelding 2022-12-08 om 13 33 37" src="https://user-images.githubusercontent.com/112857444/206447591-eaa52b65-e7f3-4de2-bca5-593f4e0618eb.png">
+<img width="1508" alt="Schermafbeelding 2022-12-08 om 13 33 37" src="https://user-images.githubusercontent.com/112857444/206448685-44249ff4-0f8b-4461-ab42-b237e52cefc8.png">
+
 
 
 <br>
