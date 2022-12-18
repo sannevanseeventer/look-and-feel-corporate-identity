@@ -345,3 +345,117 @@ li a:hover {
     transform: translateX(50%);
   }
 }
+
+/*RESPONSIVE*/
+@media only screen and (min-width: 422px) {}
+  
+  .card {
+max-width: 400px;
+  }
+
+
+
+@media only screen and (min-width: 50rem) {
+  .nav-links {
+      display: block;
+      height: 0;
+      overflow: hidden;
+      text-align: left;
+  }
+
+  .hero {
+      background-image: url("../assets/background4.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  .nav-toggle {
+      display: none;
+  }
+
+  .flex-nav {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2em;
+  }
+
+  .nav-links {
+      height: auto;
+  }
+
+  ul {
+      text-align: center;
+      display: flex;
+
+  }
+
+  .nav-link {
+      display: flex;
+      border-bottom: none;
+      margin: 0em;
+      width: 5em;
+  }
+
+  li a {
+      font-size: 0.8em;
+
+  }
+
+  .nav-toggle2 {
+      display: none;
+  }
+
+  .picture {
+      display: none;
+  }
+
+  p {
+      font-size: 0.9em;
+  }
+  
+  .text {
+      padding-top: 8em;
+  }
+
+
+  .button {
+      padding: 0.5em 1.2em;
+      font-size: 0.9rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      align-self: flex-start;
+  }
+
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  .nav-link {
+      width: 7em;
+  }
+
+  .container {
+      max-width: 1350px;
+  
+  }
+
+  .shoppingcart{
+      padding: 1em;
+  }
+
+  section{
+      height: 655px;
+  }
+  
+  .text {
+      padding-top: 8em;
+  }
+
+  .button {
+      padding: 0.7em 1.3em;
+      font-size: 1rem;
+
+  }
+
+}

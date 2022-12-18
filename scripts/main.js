@@ -1,11 +1,14 @@
 const navToggle = document.querySelector("#navToggle")
 const nav = document.querySelector("#nav-links")
+const navToggle2 = document.querySelector ('#navToggle2')
 
 navToggle.addEventListener("click", () => {
     nav.classList.toggle('nav-open')
+
+navToggle2.addEventListener("click", () => {
+    nav.classList.toggle ('nav-close')
     
-    
-})
+})})
 
 const multistepForm = document.querySelector('.multistep-form');
 const forms = multistepForm.querySelectorAll('fieldset');
